@@ -1,11 +1,12 @@
 <img src="https://raw.githubusercontent.com/BEPb/BEPb/5c63fa170d1cbbb0b1974f05a3dbe6aca3f5b7f3/assets/Bottom_up.svg" width="100%" />
 <h1 align="center">Hi 👋, I'm Brook</h1>
 <h3 align="center">A Computer Science Student at the University of Toronto with aspirations to become a Software Engineer</h3>
+
 - 🔭 I’m currently working on **an airline ticket booking system in Python and leveling up my skills through the FreeCodeCamp curriculum to create exciting projects.**
 - 👯 I’m looking to collaborate on **open-source projects to expand my knowledge, explore new technologies, and enhance my skills.**
 - 🌱 I’m currently learning **data structures and algorithms with JavaScript, as well as responsive web design with HTML and CSS.**
-
 - 📫 How to reach me **brook.mao@mail.utoronto.ca**
+- 👨‍💻 All of my projects are available at **https://github.com/BrookMaoDev?tab=repositories**
 - ⚡ Fun fact **I'm a national chess master!**
 
 <div> <a href="https://www.linkedin.com/in/brook-mao" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
