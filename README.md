@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on **an airline ticket booking system in Python and leveling up my skills through the FreeCodeCamp curriculum to create exciting projects.**
 - 👯 I’m looking to collaborate on **open-source projects to expand my knowledge, explore new technologies, and enhance my skills.**
-- 🌱 I’m currently learning **data structures and algorithms with JavaScript, as well as responsive web design with HTML and CSS.**
+- 🌱 I’m currently learning **data structures and algorithms with JavaScript.**
 - 📫 How to reach me **brook.mao@mail.utoronto.ca**
 - 👨‍💻 All of my projects are available at **https://github.com/BrookMaoDev?tab=repositories**
 - ⚡ Fun fact **I'm a national chess master!**
