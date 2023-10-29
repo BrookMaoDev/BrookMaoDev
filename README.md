@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Brook</h1>
 <h3 align="center">A Computer Science Student at the University of Toronto with aspirations to become a Software Engineer</h3>
 
-- 🔭 I’m currently working on **a markdown previewer tool in React and enhancing my skills through the FreeCodeCamp curriculum to build engaging projects.**
+- 🔭 I’m currently working on **a Markdown previewer tool in React and enhancing my skills through the FreeCodeCamp curriculum to build engaging projects.**
 - 👯 I’m looking to collaborate on **open-source projects to expand my knowledge, explore new technologies, and enhance my skills.**
 - 🌱 I’m currently learning **data structures and algorithms with JavaScript.**
 - 📫 How to reach me **brook.mao@mail.utoronto.ca**
