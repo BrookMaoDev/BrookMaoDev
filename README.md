@@ -1,12 +1,10 @@
-<img src="https://raw.githubusercontent.com/BEPb/BEPb/5c63fa170d1cbbb0b1974f05a3dbe6aca3f5b7f3/assets/Bottom_up.svg" width="100%" />
 <h1 align="center">Hi 👋, I'm Brook</h1>
 <h3 align="center">A Computer Science Student at the University of Toronto with aspirations to become a Software Engineer</h3>
 
-- 🔭 I’m currently working on **a Markdown previewer tool in React and enhancing my skills through the FreeCodeCamp curriculum to build engaging projects.**
+- 👨‍💻 All of my projects are available at **https://github.com/BrookMaoDev?tab=repositories. However, my U of T projects and assignments won't be there because I am not allowed to share those publicly.**
+- 🌱 I’m currently learning **data structures and algorithms in JavaScript through the freeCodeCamp curriculum.**
 - 👯 I’m looking to collaborate on **open-source projects to expand my knowledge, explore new technologies, and enhance my skills.**
-- 🌱 I’m currently learning **data structures and algorithms with JavaScript.**
 - 📫 How to reach me **brook.mao@mail.utoronto.ca**
-- 👨‍💻 All of my projects are available at **https://github.com/BrookMaoDev?tab=repositories**
 - ⚡ Fun fact **I'm a national chess master!**
 
 <div> <a href="https://www.linkedin.com/in/brook-mao" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
@@ -14,24 +12,21 @@
 <a href = "mailto:brook.mao@mail.utoronto.ca"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </div><h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/brook-mao" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/linked-in-alt.svg" alt="brook-mao" height="30" width="40" /></a><a href="https://www.leetcode.com/BrookMao" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/leet-code.svg" alt="BrookMao" height="30" width="40" /></a><a href="https://discord.gg/cawton" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/discord.svg" alt="cawton" height="30" width="40" /></a></p>
+<a href="https://linkedin.com/in/brook-mao" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/linked-in-alt.svg" alt="brook-mao" height="30" width="40" /></a><a href="https://www.leetcode.com/BrookMao" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/leet-code.svg" alt="BrookMao" height="30" width="40" /></a></p>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
-<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/python-original.svg" alt="Python" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/javascript-original.svg" alt="Javascript" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/java-original.svg" alt="Java" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Languages/python-original.svg" alt="Python" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/html5-original-wordmark.svg" alt="HTML" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/css3-original-wordmark.svg" alt="Css" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Framework/pocoo_flask-icon.svg" alt="Flask" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/ML/pandas-original.svg" alt="Pandas" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Other/git-scm-icon.svg" alt="Git" width="40" height="40"/>
 </p>
 
 <h3 align="left">Stars</h3>
-<img align="left" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrookMaoDev&layout=compact&theme=" alt=BrookMaoDev />
-
-<p>&nbsp;<img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=BrookMaoDev&show_icons=true&locale=en&theme=" alt="BrookMaoDev" /></p>
+<img align="left" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrookMaoDev&hide_progress=true&theme=" alt=BrookMaoDev />
 
 <p><img align="center" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=BrookMaoDev&theme=" alt="BrookMaoDev" /></p>
-
-
-<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
