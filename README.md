@@ -9,7 +9,7 @@
 
 -   📫 How to reach me **brook.mao@mail.utoronto.ca**
 
--   📄 Know about my experiences [https://github.com/BrookMaoDev/MasterResume/blob/main/MasterResume.pdf](https://github.com/BrookMaoDev/MasterResume/blob/main/MasterResume.pdf)
+-   📄 Know about my experiences [https://github.com/BrookMaoDev/MasterResume](https://github.com/BrookMaoDev/MasterResume)
 
 -   ⚡ Fun fact **I enjoy playing chess and am a National Master.**
 
