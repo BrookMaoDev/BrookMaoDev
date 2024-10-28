@@ -1,22 +1,19 @@
 <h1 align="center">Hi 👋, I'm Brook</h1>
-<h3 align="center">A computer science student at the University of Toronto with experience in software development, data analysis, and machine learning, looking to learn more about data engineering, virtual reality, and artificial intelligence.</h3>
+<h3 align="center">A computer science student at the University of Toronto with experience in web and mobile development. I'm always excited to explore new technologies.</h3>
 
--   🔭 I’m currently working on **building a data pipeline that scrapes computer science-related job listings to identify the most in-demand skills.**
+-   🔭 I’m currently working on **building an ETL pipeline using Go.**
 
--   🌱 I’m currently learning **Unity, C#, Go, Scala, and data engineering.**
+-   🌱 I’m currently learning **data engineering, FPGA design, C#, and Unity.**
 
--   👯 I’m looking to collaborate on **open source projects that I'm passionate about, such as VS Code and Lichess.**
+-   👯 I’m looking to collaborate on **open-source projects that align with my interests, such as VS Code and Lichess.**
 
--   📫 How to reach me **brook.mao@mail.utoronto.ca**
+-   📫 How to reach me: **brook.mao@mail.utoronto.ca**
 
--   📄 Know about my experiences [https://github.com/BrookMaoDev/MasterResume](https://github.com/BrookMaoDev/MasterResume)
-
--   ⚡ Fun fact **I enjoy playing chess and am a National Master.**
+-   ⚡ Fun fact: **I enjoy playing chess and hold the title of National Master.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/brook-mao" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="brook-mao" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/brookmao" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="brookmao" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
