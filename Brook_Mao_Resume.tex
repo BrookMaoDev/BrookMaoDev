@@ -1,0 +1,242 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+	\textbf{\Huge \scshape Brook Mao} \\ \vspace{1pt}
+	\small 647-964-6882 $|$ \href{mailto:brook.mao@mail.utoronto.ca}{\underline{brook.mao@mail.utoronto.ca}} $|$
+	\href{https://linkedin.com/in/brook-mao}{\underline{linkedin.com/in/brook-mao}} $|$
+	\href{https://github.com/BrookMaoDev}{\underline{github.com/BrookMaoDev}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{University of Toronto}{Toronto, Canada}
+{Honours Bachelor of Science in Computer Science}{Expected Apr 2028}
+\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Engineer Intern}{May 2025 -- Aug 2026}
+{Microchip Technology Inc.}{Toronto, Canada}
+\resumeItemListStart
+\resumeItem{Developed a new IDE for programming Microchip FPGAs as part of a team of 2 to 5}
+\resumeItem{Extended the open-source Theia IDE with custom logic and features using object-oriented TypeScript}
+\resumeItem{Identified issues with the Theia IDE and contributed fixes to the upstream open-source project}
+\resumeItem{Added AI features to the IDE, enabling another team to integrate their specialized coding assistant}
+\resumeItem{Fixed complex bugs both in the IDE to improve reliability for users and in CI pipelines to unblock team members}
+\resumeItem{Used Claude Code to accelerate development while ensuring the team stayed knowledgeable about all changes}
+\resumeItem{Enhanced the UI/UX using React and CSS based on provided Figma designs and customer feedback}
+\resumeItem{Added remote SSH support, allowing users to connect to remote servers and program connected hardware}
+\resumeItem{Completed a feature allowing users to read from and write to hardware registers while debugging}
+\resumeItem{Upgraded dependencies and refactored extensive portions of the codebase to maintain compatibility}
+\resumeItem{Improved robustness of the IDE's Clangd C/C++ extension, providing users with more accurate error highlighting}
+\resumeItem{Wrote automated E2E tests with Playwright to catch regressions and reduce manual testing, saving developer time}
+\resumeItem{Completed a handed-off project to improve the readability of log output from projects using multiple processors}
+\resumeItem{Used Git, Docker, Make, Python, Bash, and Jenkins as part of the existing development workflow on Linux}
+\resumeItem{Developed a new PowerShell workflow for local development on Windows, giving team members more OS flexibility}
+\resumeItem{Reviewed dozens of pull requests, catching bugs early and providing feedback to influence better design decisions}
+\resumeItem{Authored documentation and trained customers on using the product during new releases}
+\resumeItem{Used Atlassian products such as Jira for issue tracking and Confluence for project planning and progress reports}
+\resumeItemListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{\href{https://github.com/BrookMaoDev/ThreatTraceAI}{ThreatTrace AI}} $|$ \emph{Python, Flask, TensorFlow, JavaScript, GCP}}{}
+\resumeItemListStart
+\resumeItem{Collaborated in a team of 4 at Hack the Valley to develop a machine learning model that classifies cell images as healthy or malaria-infected with 95.45\% accuracy, winning the Pulsar ML Challenge}
+\resumeItem{Coordinated tasks and clarified roles for teammates to deliver a working prototype within 36 hours}
+\resumeItem{Built the neural network using TensorFlow and trained it on a dataset of over 27,000 images, documenting the process in a Jupyter notebook}
+\resumeItem{Conducted data preprocessing on the training data and user-uploaded images to ensure model compatibility}
+\resumeItem{Deployed the model via a web app using HTML, CSS, Bootstrap, and JavaScript to create a sleek frontend, and Python with Flask to develop a REST API backend, allowing users to try the model with their own images}
+\resumeItem{Set up a CI/CD pipeline with GitHub Actions, automating Docker image builds and deployments to GCP}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://github.com/BrookMaoDev/ETLPipeline}{Mars Weather Data Pipeline}} $|$ \emph{Go, Google Cloud Storage, Google BigQuery, Power BI}}{}
+\resumeItemListStart
+\resumeItem{Developed an ETL data pipeline in Go that extracts Mars weather data from the NASA API, processes it, and loads it into Google Cloud Storage and BigQuery}
+\resumeItem{Integrated Power BI with the BigQuery data warehouse to visualize Mars weather data and generate reports}
+\resumeItem{Built a Go API endpoint that automatically triggers the data pipeline}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://github.com/BrookMaoDev/SoftwareDesignFinalProject}{Toronto Asian Art Museum Mobile App}} $|$ \emph{Android Studio, Java, Firebase}}{}
+\resumeItemListStart
+\resumeItem{Developed an Android app using Java and Firebase Realtime Database for managing museum artifacts}
+\resumeItem{Led a team of 6 as Scrum master, facilitating meetings and sprint planning, achieving a 10/10 peer evaluation score}
+\resumeItem{Resolved bugs for 3 team members, ensuring on-time delivery of requirements within a 1-month deadline}
+\resumeItem{Implemented an interactive UI by extending AndroidX fragments to create custom elements}
+\resumeItem{Applied object-oriented design patterns like Singleton and Adapter to write maintainable code}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://github.com/BrookMaoDev/MultiClock}{MultiClock}} $|$ \emph{JavaScript, MERN, Tailwind CSS, NGINX, Docker, Linux, AWS, GitHub Actions}}{}
+\resumeItemListStart
+\resumeItem{Developed a multiplayer chess clock web app using React, Node.js, Express, and MongoDB}
+\resumeItem{Designed a responsive UI to ensure the app works seamlessly on both desktop and mobile devices}
+\resumeItem{Deployed the app on AWS using a Linux VM, configuring NGINX as a reverse proxy with HTTPS encryption for secure public access}
+\resumeItem{Set up a CI/CD pipeline with GitHub Actions, automating Docker image builds and deployments to AWS}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://github.com/BrookMaoDev/Portfoliify}{Portfoliify}} $|$ \emph{PHP, MySQL, Apache, JavaScript, Azure}}{}
+\resumeItemListStart
+\resumeItem{Developed a web app for creating and managing online profiles using PHP, MySQL, and JavaScript}
+\resumeItem{Designed a relational data model featuring 5 SQL tables to efficiently store user data}
+\resumeItem{Set up a CI/CD pipeline with GitHub Actions, automating Docker image builds and deployments to Azure}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://github.com/BrookMaoDev/3DRenderingEngine}{3D Rendering Engine}} $|$ \emph{C++, Cppcheck, Make}}{}
+\resumeItemListStart
+\resumeItem{Built an object-oriented graphics program in C++ to render 3D shapes like cubes and pyramids}
+\resumeItem{Added zoom, pan, and rotation functionalities using linear algebra and other mathematical techniques}
+\resumeItem{Applied software design principles to ensure maintainability and facilitate future changes}
+\resumeItem{Used Makefiles to streamline the build process and conducted static code analysis with Cppcheck}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+	      \textbf{Languages}{: JavaScript, TypeScript, Python, C/C++, Java, SQL (Postgres, MySQL), Go, PHP, Bash, PowerShell} \\
+	      \textbf{Frameworks}{: React, Node.js, Express, Flask, JUnit, Jest, Playwright, Bootstrap, Tailwind CSS} \\
+	      \textbf{Developer Tools}{: Git, Docker, Make, GitHub Actions, Jenkins, AWS, GCP, Azure, NGINX, Firebase, MongoDB} \\
+	      \textbf{Libraries}{: pandas, NumPy, Matplotlib, TensorFlow}
+	      }}
+\end{itemize}
+
+
+%-------------------------------------------
+\end{document}
