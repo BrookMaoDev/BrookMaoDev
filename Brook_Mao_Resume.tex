@@ -136,22 +136,22 @@
 {Software Engineer Intern}{May 2025 -- Aug 2026}
 {Microchip Technology Inc.}{Toronto, Canada}
 \resumeItemListStart
-\resumeItem{Developed a new IDE for programming Microchip FPGAs as part of a team of 2 to 5}
+\resumeItem{Developed a new IDE for programming Microchip FPGAs on a team of 2--5 engineers}
 \resumeItem{Extended the open-source Theia IDE with custom logic and features using object-oriented TypeScript}
 \resumeItem{Identified issues with the Theia IDE and contributed fixes to the upstream open-source project}
 \resumeItem{Added AI features to the IDE, enabling another team to integrate their specialized coding assistant}
-\resumeItem{Fixed complex bugs both in the IDE to improve reliability for users and in CI pipelines to unblock team members}
-\resumeItem{Used Claude Code to accelerate development while ensuring the team stayed knowledgeable about all changes}
-\resumeItem{Enhanced the UI/UX using React and CSS based on provided Figma designs and customer feedback}
-\resumeItem{Added remote SSH support, allowing users to connect to remote servers and program connected hardware}
-\resumeItem{Completed a feature allowing users to read from and write to hardware registers while debugging}
+\resumeItem{Fixed complex bugs in the IDE to improve reliability for users, and in CI pipelines to unblock team members}
+\resumeItem{Used Claude Code to accelerate development while making sure the team understood every change}
+\resumeItem{Enhanced the UI/UX using React and CSS based on Figma designs and customer feedback}
+\resumeItem{Added remote SSH support, allowing users to connect to remote servers and program attached hardware}
+\resumeItem{Completed and maintained a hardware register viewer with read/write support, extending it to newer FPGAs}
 \resumeItem{Upgraded dependencies and refactored extensive portions of the codebase to maintain compatibility}
 \resumeItem{Improved robustness of the IDE's Clangd C/C++ extension, providing users with more accurate error highlighting}
 \resumeItem{Wrote automated E2E tests with Playwright to catch regressions and reduce manual testing, saving developer time}
 \resumeItem{Completed a handed-off project to improve the readability of log output from projects using multiple processors}
-\resumeItem{Used Git, Docker, Make, Python, Bash, and Jenkins as part of the existing development workflow on Linux}
+\resumeItem{Used Git, Docker, Make, Python, Bash, and Jenkins as part of the team's Linux workflow}
 \resumeItem{Developed a new PowerShell workflow for local development on Windows, giving team members more OS flexibility}
-\resumeItem{Reviewed dozens of pull requests, catching bugs early and providing feedback to influence better design decisions}
+\resumeItem{Reviewed dozens of pull requests, catching bugs early and pushing for better design decisions}
 \resumeItem{Authored documentation and trained customers on using the product during new releases}
 \resumeItem{Used Atlassian products such as Jira for issue tracking and Confluence for project planning and progress reports}
 \resumeItemListEnd
@@ -173,14 +173,43 @@
 \section{Projects}
 \resumeSubHeadingListStart
 \resumeProjectHeading
+{\textbf{\href{https://github.com/BrookMaoDev/YouTubeAutoComment}{YouTube Auto Comment}} $|$ \emph{TypeScript, Node.js, Express, PostgreSQL, GCP, Docker}}{}
+\resumeItemListStart
+\resumeItem{Built a web app that monitors selected YouTube channels and posts a comment as soon as a new video drops}
+\resumeItem{Integrated Google OAuth 2.0 so the app can comment on behalf of users, with JWT cookies for sessions}
+\resumeItem{Designed a Postgres schema linking users, channels, and comments, using foreign keys to keep data consistent}
+\resumeItem{Deployed on Google Cloud Run with Docker, using Cloud Scheduler to poll YouTube for new uploads}
+\resumeItemListEnd
+\resumeProjectHeading
 {\textbf{\href{https://github.com/BrookMaoDev/ThreatTraceAI}{ThreatTrace AI}} $|$ \emph{Python, Flask, TensorFlow, JavaScript, GCP}}{}
 \resumeItemListStart
 \resumeItem{Collaborated in a team of 4 at Hack the Valley to develop a machine learning model that classifies cell images as healthy or malaria-infected with 95.45\% accuracy, winning the Pulsar ML Challenge}
 \resumeItem{Coordinated tasks and clarified roles for teammates to deliver a working prototype within 36 hours}
 \resumeItem{Built the neural network using TensorFlow and trained it on a dataset of over 27,000 images, documenting the process in a Jupyter notebook}
-\resumeItem{Conducted data preprocessing on the training data and user-uploaded images to ensure model compatibility}
+\resumeItem{Preprocessed the training data and user-uploaded images to ensure model compatibility}
 \resumeItem{Deployed the model via a web app using HTML, CSS, Bootstrap, and JavaScript to create a sleek frontend, and Python with Flask to develop a REST API backend, allowing users to try the model with their own images}
 \resumeItem{Set up a CI/CD pipeline with GitHub Actions, automating Docker image builds and deployments to GCP}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://github.com/BrookMaoDev/MultiClock}{MultiClock}} $|$ \emph{JavaScript, MERN, Tailwind CSS, NGINX, Docker, Linux, AWS, GitHub Actions}}{}
+\resumeItemListStart
+\resumeItem{Developed a multiplayer chess clock web app using React, Node.js, Express, and MongoDB}
+\resumeItem{Designed a responsive UI to ensure the app works seamlessly on both desktop and mobile devices}
+\resumeItem{Deployed the app on AWS using a Linux VM, configuring NGINX as a reverse proxy with HTTPS encryption for secure public access}
+\resumeItem{Set up a CI/CD pipeline with GitHub Actions, automating Docker image builds and deployments to AWS}
+\resumeItemListEnd
+\pagebreak
+\resumeProjectHeading
+{\textbf{\href{https://github.com/BrookMaoDev/ConcurrentSystemMonitor}{Concurrent System Monitor}} $|$ \emph{C, Linux, Make}}{}
+\resumeItemListStart
+\resumeItem{Built a Linux CLI tool that reports hardware specs and tracks CPU and memory usage in real time}
+\resumeItem{Collected each metric in its own child process, piping results to the parent and handling signals to pause or quit}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://github.com/BrookMaoDev/LinuxFileDescriptorTables}{Linux File Descriptor Tables}} $|$ \emph{C, Linux, Make}}{}
+\resumeItemListStart
+\resumeItem{Recreated Linux's per-process, system-wide, and vnode file descriptor tables by walking the /proc filesystem}
+\resumeItem{Resolved file paths and inode numbers for each open file, adding CLI flags to filter by PID and set thresholds}
 \resumeItemListEnd
 \resumeProjectHeading
 {\textbf{\href{https://github.com/BrookMaoDev/ETLPipeline}{Mars Weather Data Pipeline}} $|$ \emph{Go, Google Cloud Storage, Google BigQuery, Power BI}}{}
@@ -190,6 +219,12 @@
 \resumeItem{Built a Go API endpoint that automatically triggers the data pipeline}
 \resumeItemListEnd
 \resumeProjectHeading
+{\textbf{\href{https://github.com/BrookMaoDev/Tetris}{Tetris}} $|$ \emph{MIPS Assembly}}{}
+\resumeItemListStart
+\resumeItem{Built Tetris in MIPS assembly with a partner, using memory-mapped I/O for the bitmap display and keyboard}
+\resumeItem{Implemented all 7 tetrominoes, collision detection, line clearing, scoring, high scores, and pause/game-over screens}
+\resumeItemListEnd
+\resumeProjectHeading
 {\textbf{\href{https://github.com/BrookMaoDev/SoftwareDesignFinalProject}{Toronto Asian Art Museum Mobile App}} $|$ \emph{Android Studio, Java, Firebase}}{}
 \resumeItemListStart
 \resumeItem{Developed an Android app using Java and Firebase Realtime Database for managing museum artifacts}
@@ -197,14 +232,6 @@
 \resumeItem{Resolved bugs for 3 team members, ensuring on-time delivery of requirements within a 1-month deadline}
 \resumeItem{Implemented an interactive UI by extending AndroidX fragments to create custom elements}
 \resumeItem{Applied object-oriented design patterns like Singleton and Adapter to write maintainable code}
-\resumeItemListEnd
-\resumeProjectHeading
-{\textbf{\href{https://github.com/BrookMaoDev/MultiClock}{MultiClock}} $|$ \emph{JavaScript, MERN, Tailwind CSS, NGINX, Docker, Linux, AWS, GitHub Actions}}{}
-\resumeItemListStart
-\resumeItem{Developed a multiplayer chess clock web app using React, Node.js, Express, and MongoDB}
-\resumeItem{Designed a responsive UI to ensure the app works seamlessly on both desktop and mobile devices}
-\resumeItem{Deployed the app on AWS using a Linux VM, configuring NGINX as a reverse proxy with HTTPS encryption for secure public access}
-\resumeItem{Set up a CI/CD pipeline with GitHub Actions, automating Docker image builds and deployments to AWS}
 \resumeItemListEnd
 \resumeProjectHeading
 {\textbf{\href{https://github.com/BrookMaoDev/Portfoliify}{Portfoliify}} $|$ \emph{PHP, MySQL, Apache, JavaScript, Azure}}{}
@@ -217,7 +244,7 @@
 {\textbf{\href{https://github.com/BrookMaoDev/3DRenderingEngine}{3D Rendering Engine}} $|$ \emph{C++, Cppcheck, Make}}{}
 \resumeItemListStart
 \resumeItem{Built an object-oriented graphics program in C++ to render 3D shapes like cubes and pyramids}
-\resumeItem{Added zoom, pan, and rotation functionalities using linear algebra and other mathematical techniques}
+\resumeItem{Added zoom, pan, and rotation features using linear algebra}
 \resumeItem{Applied software design principles to ensure maintainability and facilitate future changes}
 \resumeItem{Used Makefiles to streamline the build process and conducted static code analysis with Cppcheck}
 \resumeItemListEnd
@@ -230,10 +257,10 @@
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
 	\small{\item{
-	      \textbf{Languages}{: JavaScript, TypeScript, Python, C/C++, Java, SQL (Postgres, MySQL), Go, PHP, Bash, PowerShell} \\
-	      \textbf{Frameworks}{: React, Node.js, Express, Flask, JUnit, Jest, Playwright, Bootstrap, Tailwind CSS} \\
-	      \textbf{Developer Tools}{: Git, Docker, Make, GitHub Actions, Jenkins, AWS, GCP, Azure, NGINX, Firebase, MongoDB} \\
-	      \textbf{Libraries}{: pandas, NumPy, Matplotlib, TensorFlow}
+		      \textbf{Languages}{: JavaScript, TypeScript, Python, C/C++, Java, SQL, Go, PHP, Bash, PowerShell, MIPS Assembly} \\
+		      \textbf{Frameworks}{: React, Node.js, Express, Flask, JUnit, Jest, Playwright, Bootstrap, Tailwind CSS} \\
+		      \textbf{Developer Tools}{: Git, Docker, Make, GitHub Actions, Jenkins, AWS, GCP, Azure, NGINX, Firebase, MongoDB, Linux} \\
+		      \textbf{Libraries}{: pandas, NumPy, Matplotlib, TensorFlow}
 	      }}
 \end{itemize}
 
